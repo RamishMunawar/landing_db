@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url("../img/bg-light.jpg");
+}
+.main{
+    /* background-color:#0a2558; */
+    background-image: url("../img/banner.jpg");
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+  
+   
+
+}
+.logo_style img{
+    
+    border-radius: 33px;
+    height: 193px;
+    width: 193px !important;
+}
+.input_change{
+    width: 280px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+  
+}
+.center_div{
+    padding: 20px;
+    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+   
+}
+.btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px; 
+    background-color:white;
+    width: 50px;
+    margin-left: 108px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    margin-top: 23px;
+    color: #0a2558;
+    text-decoration: none;
+}
+/* .btn:hover{
+    border: none;
+    background-color:rgb(156, 42, 42);
+    outline: none;
+} */
+
+.check_box{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.check_box a{
+    padding-left: 66px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.forget_div p{
+    padding-left: 140px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.forget_div p a{
+  color: black;  
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.forget_div p:hover{
+    /* padding-left: 140px; */
+    color: white;
+}
+
+.password_1{
+    position: relative;
+}
+.image_1{
+    position: absolute;
+    top: 15px;
+    right: 44px;
+}
+
+
+
+
+@media only screen and (width: 768px) {
+    .main{
+        /* background-color:#0a2558; */
+        background-image: url("../img/banner.jpg");
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 20px;
+      
+       
+    
+    }
+  }
